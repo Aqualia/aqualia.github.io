@@ -10,7 +10,7 @@ const Services = () => {
         
         <div className="mt-8 text-lg text-neutral-100">
           <p>
-            We deliver precision-engineered solutions built on deep expertise and real-world experience. 
+            We deliver solutions built on deep expertise and real-world experience. 
             Every service is tailored to your specific business context—because effective security and AI 
             implementation isn't about applying generic templates, but crafting strategies that align with 
             your unique objectives.
@@ -32,11 +32,6 @@ const Services = () => {
             </p>
             <div className="pl-6">
               <ul className="list-disc space-y-2">
-                <li>
-                  <span className="font-medium">Threat Intelligence & Risk Modeling:</span> Predictive identification of 
-                  vulnerabilities specific to your business model and technology stack, with prioritized 
-                  remediation pathways.
-                </li>
                 <li>
                   <span className="font-medium">Security Architecture Design:</span> Custom security frameworks aligned with 
                   business workflows that balance robust protection with operational efficiency.
