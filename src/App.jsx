@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import Products from "./pages/Products";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -19,6 +20,7 @@ const LoadingFallback = () => (
 function App() {
   return (
     <div className="flex flex-col min-h-screen justify-between p-8 pb-0 bg-neutral-900 text-neutral-50">
+      <ScrollToTop />
       <Navbar />
       <main className="w-full flex-1 flex justify-center">
         <div className="w-full">
