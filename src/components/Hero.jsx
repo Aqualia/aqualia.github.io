@@ -17,13 +17,13 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-display text-4xl sm:text-5xl md:text-5xl font-medium tracking-tight text-neutral-50"
           >
-            <span className="whitespace-nowrap">Enterprise-Grade Security.</span> <span className="whitespace-nowrap">AI-Powered Insights.</span> <span className="whitespace-nowrap">Scaled for You.</span>
+            Enterprise-Grade Security. AI-Powered Insights. Scaled for You.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-6 text-lg md:text-xl text-neutral-100"
+            className="mt-4 text-lg md:text-xl text-neutral-100"
           >
             We bring sophisticated cybersecurity and practical AI solutions to growing businesses, acting as your dedicated partner in navigating the digital frontier securely and intelligently.
           </motion.p>
